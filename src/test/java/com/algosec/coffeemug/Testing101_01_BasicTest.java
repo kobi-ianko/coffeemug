@@ -5,16 +5,13 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-/**
- * Comment
- */
 @Slf4j
 @SpringBootTest
-class CoffeemugApplicationTests {
+class Testing101_01_BasicTest {
 
 	@Test
 	void basicTest() {
-        log.info("Success");
+        log.info("This is a basic test.");
 	}
 
 }
