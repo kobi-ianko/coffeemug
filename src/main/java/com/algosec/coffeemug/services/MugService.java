@@ -41,5 +41,9 @@ public class MugService {
         
         inventoryService.reduceInventory(drinkType.getCoffeeInGrams(), drinkType.getMilkInMilliliters());
     }
+    
+    public DrinkType[] getDrinkType() {
+        return DrinkType.values();
+    }
 
 }

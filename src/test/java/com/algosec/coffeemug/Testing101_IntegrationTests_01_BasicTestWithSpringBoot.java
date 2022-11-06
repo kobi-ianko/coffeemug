@@ -41,7 +41,7 @@ class Testing101_IntegrationTests_01_BasicTestWithSpringBoot {
     private MugService mugService;
 
     @Test
-    public void givenOneCoffeMug_whenInventory_thenStatus200AndMilkIsOneLiter()
+    public void givenOneCoffeeMug_whenInventory_thenStatus200AndMilkIsOneLiter()
         throws Exception {
         
         mugService.getDrink(DrinkType.AMERICANO);
