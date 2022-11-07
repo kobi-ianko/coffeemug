@@ -32,7 +32,7 @@ import java.util.stream.Stream;
 @AutoConfigureMockMvc
 @TestPropertySource(
     locations = "classpath:application-test.properties")
-class Testing101_IntegrationTests_01_BasicTestWithSpringBoot {
+class Testing101_IntegrationTests_01_BasicWebTestWithSpringBoot {
 
     @Autowired
     private MockMvc mvc;
