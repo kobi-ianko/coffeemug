@@ -13,7 +13,7 @@ public enum DrinkType {
     DOPPIO(14, 0),
     MACCHIATO(14, 5),
     LONGO(21, 0),
-    FLAT_WHAITE(14, 120),
+    FLAT_WHITE(14, 120),
     LATTE(14, 150);
     
     private int coffeeInGrams;

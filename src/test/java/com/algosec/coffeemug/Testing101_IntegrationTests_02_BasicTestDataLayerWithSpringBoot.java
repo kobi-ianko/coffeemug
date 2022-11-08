@@ -41,7 +41,7 @@ class Testing101_IntegrationTests_02_BasicTestDataLayerWithSpringBoot {
     private MugRepository mugRepository;
 
     @Test
-    public void givenOneCoffeeMug_whenInventory_thenStatus200AndMilkIsOneLiter()
+    public void givenOneCoffeeMug_whenDbHoldsOurMug()
         throws Exception {
         
         Mug mug = new Mug(null, DrinkType.AMERICANO, new Date());

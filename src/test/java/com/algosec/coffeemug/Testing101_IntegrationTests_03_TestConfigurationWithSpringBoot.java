@@ -37,7 +37,7 @@ class Testing101_IntegrationTests_03_TestConfigurationWithSpringBoot {
     private MugRepository mugRepository;
 
     @Test
-    public void givenOneCoffeeMug_whenInventory_thenStatus200AndMilkIsOneLiter()
+    public void givenOneCoffeeMugWithConfiguration_whenCustomPrintIsPrinted()
         throws Exception {
         
         Mug mug = new Mug(null, DrinkType.AMERICANO, new Date());
