@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @Slf4j
-@SpringBootTest
+
 class Testing101_07_TestsWithDynamicTests {
 
     MugService mugService = new MugService(null, null, null);

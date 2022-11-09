@@ -31,7 +31,7 @@ import java.util.List;
 @ExtendWith(MockitoExtension. class)
 @TestPropertySource(
     locations = "classpath:application-test.properties")
-class Testing101_Mockito_02_TheSpyAnnotation {
+class Testing101_09_Mockito_02_TheSpyAnnotation {
     
     @Spy
     private MugService mugService = new MugService(null, null, null);

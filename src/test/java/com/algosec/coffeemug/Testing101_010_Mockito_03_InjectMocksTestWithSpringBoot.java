@@ -24,7 +24,7 @@ import java.util.UUID;
 @Slf4j
 @RunWith(MockitoJUnitRunner.class)
 @ExtendWith(MockitoExtension. class)
-class Testing101_Mockito_03_InjectMocksTestWithSpringBoot {
+class Testing101_010_Mockito_03_InjectMocksTestWithSpringBoot {
 
     
     @InjectMocks

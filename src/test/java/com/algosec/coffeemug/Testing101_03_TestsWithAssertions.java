@@ -12,7 +12,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @Slf4j
-@SpringBootTest
 class Testing101_03_TestsWithAssertions {
 
 	@Test

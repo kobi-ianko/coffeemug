@@ -36,7 +36,7 @@ import java.util.UUID;
 @ExtendWith(MockitoExtension. class)
 @TestPropertySource(
     locations = "classpath:application-test.properties")
-class Testing101_Mockito_01_BasicMock {
+class Testing101_08_Mockito_01_BasicMock {
     
     @Mock
     private MugRepository mugRepository;
